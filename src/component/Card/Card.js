@@ -9,6 +9,7 @@ function Card({ continent }) {
       onClick={() => navigate(`/countries/${continent.id}`)}
     >
       <img src={continent.image} alt="" className="card-img" />
+      <p>{continent.name}</p>
     </div>
   );
 }

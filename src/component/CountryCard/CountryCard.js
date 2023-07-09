@@ -6,9 +6,10 @@ function CountryCard({ country, name }) {
   return (
     <div
       className="card"
-      onClick={() => navigate(`/cities/${country.name}/${country.id}`)}
+      onClick={() => navigate(`/cities/${name}/${country.id}`)}
     >
       <img src={country.image} alt="" className="card-img" />
+      <p>{country.name}</p>
     </div>
   );
 }
