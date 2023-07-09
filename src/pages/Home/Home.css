@@ -1,0 +1,8 @@
+.continents-container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+h2{
+    color: blue;
+}
